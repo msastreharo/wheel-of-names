@@ -15,8 +15,6 @@ function showRandomName() {
     if (remainingNames.length === 0) {
         remainingNames = names;
     }
-
-
 }
 
 spinner.addEventListener("click", showRandomName);
